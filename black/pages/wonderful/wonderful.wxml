@@ -1,0 +1,66 @@
+<!-- 头部样式 -->
+<view class="top tong">
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>
+<!-- 内容区域开始 -->
+<!-- <image src='https://wew.jydianping.com/images/wonderful_top.jpg' class='top_img'></image> -->
+<!-- 轮播图 -->
+	<swiper indicator-dots="{{indicatorDots}}"
+	  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="banner_k">
+	  <block wx:for="{{imgUrls}}" wx:key>
+	    <swiper-item>
+	      <image src="{{item}}" class="banner_img"/>
+	    </swiper-item>
+	  </block>
+	</swiper>
+<!-- 选项卡开始 -->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">电影</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">游戏</view>
+</view>
+
+  <view class="weui-cells__title index_ul_k" hidden="{{!isShow}}">
+   <view wx:for="{{index_ul}}" wx:key>
+    <view class='index_ul'>
+      <navigator url="/pages/jxdetail/jxdetail?jxid={{item.jxid}}&bt={{item.bt}}"><image src='{{item.img}}'></image></navigator>
+      <navigator url="/pages/jxdetail/jxdetail?jxid={{item.jxid}}&bt={{item.bt}}" class='tong wzjd'>{{item.bt}}</navigator>
+      <view class='tong'>
+      <view class='introduction fl'>{{item.introduction}}</view>
+        <view class='fl like'>{{item.zan}}</view>
+        <view class='fl view'>{{item.view}}</view>
+        <button class='fl share' open-type="share">分享</button>
+      </view>
+    </view>
+   </view>
+  </view>
+
+<view class="weui-cells__title index_ul_k" hidden="{{isShow}}">
+   <view>
+    <view class='index_ul'>
+      <navigator url='/pages/jxdetail/game/game'><image src='http://img.rrcj123.com/black/img/jx/timg.jpg' class='gameimg'></image></navigator>
+      <navigator url='/pages/jxdetail/game/game' class='tong game'>
+      七年等待,梦碎s8
+      -----------遗憾注定是铭记青春的方式
+      </navigator>
+      <view class='tong'>
+      <view class='introduction fl'>{{item.introduction}}</view>
+        <view class='fl like'>109万</view>
+        <view class='fl view'>3.8亿</view>
+        <button class='fl share' open-type="share">分享</button>
+      </view>
+    </view>
+   </view>
+</view>
+<!-- 选项卡结束 -->

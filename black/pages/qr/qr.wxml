@@ -1,0 +1,4 @@
+<!-- 头部样式 -->
+<image src='http://img.rrcj123.com/black/img/landing_logo.png' class='logo'></image>
+<image class='qr' src='{{qr}}'></image>
+<view class='qr_jie'>我的推广二维码</view>

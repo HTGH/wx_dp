@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/wonderful/wonderful",
+    "pages/jxdetail/jxdetail",
+    "pages/jxdetail/game/game",
+    "pages/chaopai/chaopai",
+    "pages/chaopai_xq/chaopai_xq",
+    "pages/reports/reports",
+    "pages/mi/mi",
+    "pages/qr/qr",
+    "pages/fans/fans",
+    "pages/data/data",
+    "pages/mp/mp",
+    "pages/change_password/change_password",
+    "pages/landing/landing",
+    "pages/registered/registered",
+    "pages/leave/leave",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "navigationBarTitleText": "精英点评",
+    "showNavigationBarLoading": "/images/logo.png",
+    "backgroundColorBottom": "#cccccc",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": "180px"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精彩",
+        "iconPath": "/images/foot1.jpg",
+        "selectedIconPath": "images/foot11.jpg"
+      },
+      {
+        "pagePath": "pages/wonderful/wonderful",
+        "text": "精选",
+        "iconPath": "images/foot2.jpg",
+        "selectedIconPath": "images/foot22.jpg"
+      },
+      {
+        "pagePath": "pages/chaopai/chaopai",
+        "text": "潮派",
+        "iconPath": "images/foot3.jpg",
+        "selectedIconPath": "images/foot33.jpg"
+      },
+      {
+        "pagePath": "pages/mi/mi",
+        "text": "我的",
+        "iconPath": "images/foot4.jpg",
+        "selectedIconPath": "images/foot44.jpg"
+      }
+    ],
+    "backgroundColor": "#252525",
+    "color": "#d3ad60"
+  }
+}

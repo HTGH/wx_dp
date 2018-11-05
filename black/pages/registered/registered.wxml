@@ -1,0 +1,24 @@
+<view class="landing_k">
+  <image src='http://img.rrcj123.com/black/img/landing_logo.png' class='logo'></image>
+
+<view class='inp_1'>
+  <input type='number' placeholder-class="inpu_c" placeholder='请输入手机号码' class='inpute'></input>
+</view>
+<view class='inp_2'>
+<input type='text' placeholder-class="inpu_c" password='false' placeholder='请输入密码' class='inpute'></input>
+</view>
+<view class='inp_3'>
+  <input type='text' placeholder-class="inpu_c" placeholder='请输入验证码' class='inpute'></input>
+  <button disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode" class='obtain'>
+    {{time}}
+  </button>
+</view>
+
+
+<button form-type='submit' class='landing'>注册</button>
+
+<view class='denglu'>
+  已有账户，<navigator url='/pages/landing/landing'>立即登录</navigator>
+</view>
+
+</view>

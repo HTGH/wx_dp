@@ -1,0 +1,39 @@
+<view class="top tong">
+<!-- 下拉列表 -->
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>
+<!-- 轮播图 -->
+	<swiper indicator-dots="{{indicatorDots}}"
+	  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="banner_k">
+	  <block wx:for="{{imgUrls}}" wx:key>
+	    <swiper-item>
+	      <image src="{{item}}" class="banner_img"/>
+	    </swiper-item>
+	  </block>
+	</swiper>
+  <!-- 列表循环 -->
+  <view class='index_ul_k'>
+   <view wx:for="{{index_ul}}" wx:key="xid">
+    <view class='index_ul'>
+      <navigator url="/pages/details/details?xid={{item.xid}}&zan={{item.zan}}"><image src='{{item.img}}'></image></navigator>
+      <navigator url="/pages/details/details?xid={{item.xid}}&zan={{item.zan}}" class='tong wzjd'>{{item.bt}}</navigator>
+      <view class='tong'>
+        <view class='fl like' bindtap='ann' data-anndata1="{{item.xid}}" data-anndata2='{{item.zan}}' >{{item.zan}}</view>
+        <view class='fl view'>{{item.view}}</view>
+        <button class='fl share' open-type="share">分享</button>
+      </view>
+    </view>
+   </view>
+  </view>

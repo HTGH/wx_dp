@@ -1,0 +1,16 @@
+<!-- 头部样式 -->
+<view class="top tong">
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>

@@ -1,0 +1,81 @@
+<view bindtouchmove="handletouchmove" id='container'>
+<!-- 头部样式 -->
+<view class="top tong">
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>
+<!-- 详情 -->
+<view class='tong details_k' wx:for="{{details}}" wx:key="xid">
+  <view class='bt'>{{item.bt}}</view>
+  <view class='bt_f'>
+    {{item.bt1}}
+    {{item.time}}
+  </view>
+  <!-- 富文本编辑区域 -->
+  <view class='details'>
+    <!-- <import src="../../wxParse/wxParse.wxml"/>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/> -->
+    <view>{{item.text1}}</view>
+    <image src="{{item.im1}}" alt=""></image>
+    <view>{{item.text2}}</view>
+    <image src="{{item.im2}}" alt=""></image>
+    <view>{{item.text3}}</view>
+    <image src="{{item.im3}}" alt=""></image>
+    <view class='like'>{{zan}}</view>
+  </view>
+  <view class='ov fx_k'>
+    <view class='a1 fl'>2353</view>
+    <button class='fl share' open-type="share">分享</button>
+  </view>
+</view>
+<!-- 灰色间隔 -->
+<view class='hui'></view>
+<!-- 用户评论 -->
+<view class='tong'>
+  <view class='comment_bt'>用户评论</view>
+  <!-- 评论列表 -->
+  <view wx:for="{{comment_ul}}" class='comment_k' wx:key="cid">
+      <image src="{{item.image}}"></image>
+      <view class='names'>{{item.name}}</view>
+      <view class='time'>{{item.time}}</view>
+      <view class='content'>{{item.content}}</view>
+  </view>
+</view>
+<view>
+    <import src="../../wxParse/wxParse.wxml"/>
+    <template is="wxParse" data="{{wxParseData:art.nodes}}"/>
+  </view>
+<!-- <view class='no_comment'>没有更多评论</view> -->
+<!-- <view class='no_comment'>还没有评论，沙发等你来抢！</view> -->
+<!-- 发表评论 -->
+<view class='publish tong'>
+  <input type='text' placeholder='期待您的点评' class='fl' bindinput ="criinput" value='{{content}}'></input>
+  <button form-type='submit' class='fr' bindtap='send'>发送</button>
+</view>
+<view class='publish_k'></view>
+
+</view>
+<!-- 返回顶部 -->
+<view class='ding' wx:if="{{showGoTop}}" bindtap='backToTop'></view>
+
+
+
+
+
+
+
+
+
+
+

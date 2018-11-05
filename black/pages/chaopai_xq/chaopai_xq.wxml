@@ -1,0 +1,63 @@
+<!-- 头部样式 -->
+<view class="top tong">
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>
+<!-- 内容区域 -->
+<view class='banner'>
+  <image src='{{banner}}'></image>
+    <view class='bt'>
+      <view class='a1 jd'>{{a1}}</view>
+      <view class='a2'>{{a2}}</view>
+    </view>
+</view>
+<view class='stop ov'>
+  <view class='div'>
+    <view class='a1'>剩余席位</view>
+    <view class='a2'>{{stop_r}}</view>
+  </view>
+  <view class='div'>
+    <view class='a1'>报名截止</view>
+    <view class='a2'>{{stop_itme}}</view>
+  </view>
+</view>
+<view>
+</view>
+<!-- 地图 -->
+<form bindsubmit="openLocation">
+  <button formType="submit" class='map'>地址：{{map}}</button>
+</form>
+<!-- 灰色隔断 -->
+<view class='hui'></view>
+<!-- 活动介绍 -->
+<view class='bt'>活动介绍</view>
+  <!-- 富文本编辑区域 -->
+  <view class='introduce tong'>
+    <view class='bt'>大咖团一起体验高空滑翔伞，招募中大咖团一起体验高空滑翔伞，招募中</view>
+    <image src="http://img.rrcj123.com/black/img/banner2.jpg"></image>
+  </view>
+<!-- 灰色隔断 -->
+<view class='hui'></view>
+
+<!-- 底部报名 -->
+<view class='foot_bm_k'></view>
+<view class='foot_bm ov'>
+    <navigator url='/pages/reports/reports' class='a1'>我要报名</navigator>
+    <navigator url='/pages/comment/comment' class='a2'>评论</navigator>
+</view>
+
+
+
+
+

@@ -1,0 +1,22 @@
+<!-- 头部样式 -->
+<view class='bt'>发表评论</view>
+<textarea placeholder='我来说几句' auto-focus='false' class='textarea no_p'></textarea>
+<button form-type="submit" class='fb' bindtap='send'> 发表 </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

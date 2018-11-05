@@ -1,0 +1,23 @@
+.top_img{display: block;width: 100%;margin-bottom: 30rpx;}
+/* 活动列表 */
+.chao_ul{position: relative;margin-bottom: 32rpx;}
+.chao_ul image{display: block;width: 100%;height: 304rpx;margin-bottom: 10rpx;}
+.chao_ul .bt{font-size: 30rpx;color: #323232;line-height: 54rpx;}
+.chao_ul .time,.chao_ul .address{font-size: 24rpx;line-height: 40rpx;color: #999999;}
+.chao_ul .address{width:560rpx;display:block;overflow: hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.chao_ul .bm,.chao_ul .no_bm{display: block;width: 134rpx;height: 58rpx;background: #e2ab3a;color: #fff;font-size: 24rpx;line-height: 58rpx;text-align: center;border-radius: 8rpx;position: absolute;bottom: 0rpx;right: 0;display: none;z-index: 999}
+.chao_ul .no_bm{background: #8a8a8a}
+.a1 .bm{display: block}
+.a2 .no_bm{display: block}
+
+
+
+
+
+
+
+
+
+
+
+

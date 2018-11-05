@@ -1,0 +1,4 @@
+.bt{font-size: 30rpx;line-height: 86rpx;color: #323232;padding: 0 24rpx;border-bottom: 1rpx solid #e1e1e1}
+.textarea{font-size: 24rpx;color: #999999;line-height: 46rpx;padding: 20rpx 24rpx 0 60rpx;height: 220rpx;border-bottom: 1rpx solid #e1e1e1;margin-bottom:   48rpx;background: url(http://img.rrcj123.com/black/img/textarea.png) no-repeat 21rpx 25rpx;background-size: 23rpx 22rpx;width: 100%;}
+.fb{font-size: 30rpx;color: #fff;width: 500rpx;height: 80rpx;border-radius: 100rpx;background: #d3ad60;border: 0}
+.fb::after{border:0;}

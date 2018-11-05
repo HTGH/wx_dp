@@ -1,0 +1,32 @@
+/* pages/yp/mx/mx.wxss */
+.container{
+  width: 750rpx;
+}
+.bt{
+  background:#252525;
+  color: #d3ad60;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+.author{
+  font-size: 16px;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  color: #686868;
+}
+image{
+  width: 530rpx;
+  margin-left: 100rpx;
+  margin-top: 20rpx;
+  height: 680rpx;
+}
+.article{
+  font-family: "宋体";
+  font-size: 16px;
+  text-align:left;
+  line-height: 25px;
+  letter-spacing:2px
+}
+.share{font-size: 24rpx;color: #7c7c7c;line-height: 54rpx;padding: 0 38rpx 0 62rpx;border: 1rpx solid #f3f3f3;margin-right: 20rpx;border-radius: 30rpx;background:url(http://img.rrcj123.com/black/img/index_ul3.png) no-repeat 24rpx center;background-size: 20rpx 20rpx;}

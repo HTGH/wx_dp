@@ -1,0 +1,15 @@
+/* pages/jxdetail/game/game.wxss */
+.container{
+  text-align: left;
+  font-family: "宋体";
+}
+.bt{
+  background:#2b2c2c;
+  color: #faf7f2;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  font-family: "华文楷体";
+  font-size:22px;
+}

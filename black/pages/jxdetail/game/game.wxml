@@ -1,0 +1,71 @@
+<!--pages/jxdetail/game/game.wxml-->
+<view class='container'>
+<view class='bt'>时间真的可怕 留不住什么</view>
+<text>
+阿布走了
+faker还是没有等到恩静
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/faker.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+若风求婚的不是Miss
+微笑和研公子的缘分还没到
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/wx.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+骚男还没有走出阴影
+PDD也因病离开
+笑笑被绿再也开心不起来
+抗韩中年人不再抗韩了
+小智也不再调侃碧哥
+五五开也没再出现在我们面前
+伊芙蕾雅结婚了   也被遗忘了
+韦神那一箭后拿起了98K
+草莓早已为人父
+小东放弃了船长
+小苍也淡出了我们的视野
+小漠的国服第一系列还能有多少期
+青铜修炼手册停播了
+“我到了31级可你早已忘了承诺”
+RNG输了
+uzi冠军梦还有多久  手还能撑多久
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/rng.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+EDG输了
+厂子八年坚守梦成空
+终究不再是追梦少年也快要退役了
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/g3.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+还记得S2的世界第一卡牌，
+S4一战封神的世界第一ADC
+护国的螳螂   传送着的瑞兹
+身后摇摇欲坠的水晶
+再没有那么多人能一起玩游戏了
+也没有一群人围在一起看比赛了
+网吧里也不再是lol独占鳌头
+UZI、厂长、姿态、小伞、兮夜、微笑、卷毛、灵药、无状态、柚子、诺夏、大哥Gogoing、…
+s3uzi的 still alive 的vn
+s4omg的50滴血翻盘
+s5edg的msi上掀翻skt
+</text>
+<text>
+<image src='http://img.rrcj123.com/black/img/jx/g1.jpg' style='display:block;width:100%;height:200px'></image>
+越来越多的老选手们离开了赛场
+希望越大 失望也就越大
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/timg.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+一片的骂声，骂的是膨胀
+一片的哭声，哭的是情怀
+开创一个时代的人都要快没落了
+我们也都长大了
+</text>
+<image src='http://img.rrcj123.com/black/img/jx/rng1.jpg' style='display:block;width:100%;height:200px'></image>
+<text>
+我也不再是那个想上王者的小屁孩
+想想自己的路还不知道该怎么走
+你说都一个大男人   怎么想着想着就哭了呢
+</text>
+<view style='height:60px'></view>
+</view>

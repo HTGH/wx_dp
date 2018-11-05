@@ -1,0 +1,15 @@
+/**app.wxss**/
+.tong{overflow: hidden;padding: 0 24rpx;}
+.fl{float: left}
+.fr{float: right}
+.ov{overflow: hidden}
+.no_p,view,.tong{box-sizing:border-box;}
+.wzjd{width:100%;display:block;overflow: hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+/* 头部通用样式 */
+.jd{width:100%;display:block;overflow: hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.top{position: fixed;top: 0;left: 0;background: #040000;width: 100%;padding: 0 24rpx;z-index: 999}
+.top .pic{font-size: 30rpx;color: #c69e62;line-height: 98rpx;width: 145rpx;padding: 0 45rpx 0 20rpx;background: url(https://wew.jydianping.com/images/top1.jpg) no-repeat 78% center;background-size: 23rpx 12rpx;}
+.top .a1{width: 452rpx;height: 54rpx;font-size: 25rpx;line-height: 54rpx;color: #c7c8c9;padding-left: 80rpx;background: #717071;border-radius: 60rpx;margin-top: 23rpx}
+.phcolor{color: #c7c8c9}
+.top .a2{width: 76rpx;text-align: center;height: 98rpx;padding-top: 30rpx}
+.top_k{height: 98rpx}

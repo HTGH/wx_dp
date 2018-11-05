@@ -1,0 +1,12 @@
+<!-- 头部样式 -->
+<image src='http://img.rrcj123.com/black/img/reports.jpg' class='top_img'></image>
+
+<view class='k'>
+<form>
+  <input type='text' placeholder='请输入您的姓名' class='input'></input>
+  <input type='number' placeholder='请输入手机号码' class='input'></input>
+  <input type='number' placeholder='报名人数' class='input'></input>
+</form>
+</view>
+
+<button form-type='submit' class='tj' bindtap='bm'>提交</button>

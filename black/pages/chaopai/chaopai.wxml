@@ -1,0 +1,30 @@
+<!-- 头部样式 -->
+<view class="top tong">
+	<picker bindchange="pickChange" value="{{index}}" range="{{array}}" class='pic fl no_p'>
+	  <view>
+	      {{array[index]}}
+	  </view>
+	</picker>
+
+	<input placeholder='输入搜索您想要的内容' type='text' class='a1 fl no_p' placeholder-class="phcolor"></input>
+
+	<view class="view-1 a2 fr">
+	    <icon class = "margin" type="search" size='20' color='#c69e62'/>
+	    <view class="margin"></view>
+	</view>
+</view>
+<view class='top_k'></view>
+<!-- 内容区域 -->
+<image src='{{top_img}}' class='top_img'></image>
+<view class='tong'>
+  <view wx:for="{{chao_ul}}" class='chao_ul {{item.kong}}' wx:key>
+    <navigator url='{{item.a}}'>
+      <image src='{{item.img}}'></image>
+        <view class='bt'>{{item.bt}}</view>
+        <view class='time'>{{item.time}}</view>
+        <view class='address'>{{item.address}}</view>
+    </navigator>
+        <navigator url='{{item.bm_a}}' class='bm'>点击报名</navigator>
+        <view class='no_bm'>活动详情</view>
+  </view>
+</view>

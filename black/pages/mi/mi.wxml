@@ -1,0 +1,42 @@
+ <view wx:if="{{flag}}" class='loback'>
+    <button  class="login" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">一 键 登 录</button>
+  </view>
+  <view  wx:else>
+<view class="mi_top ov">
+  <view>
+    <navigator url='/pages/data/data' class='fl'>
+      <image src='{{avatar}}' class='avatar'></image>
+      {{names}}
+    </navigator>
+    <navigator url='/pages/qr/qr' class='fr'><image src='http://img.rrcj123.com/black/img/qr.png'></image> 我的推广码</navigator>
+  </view>
+</view>
+<view class='hui'></view>
+<navigator url='/pages/fans/fans' class='fans'>粉丝<view>(25)</view></navigator>
+<view class='hui'></view>
+<view bindtap='er' class='fans'>扫一扫</view>
+<view class='hui'></view>
+<!-- 基本资料 -->
+<view class='bt'>基本资料</view>
+<navigator class='url ov' url='/pages/data/data'>
+  <image src='http://img.rrcj123.com/black/img/mi1.jpg'></image>
+  完善资料
+</navigator>
+<navigator class='url ov' url='/pages/mp/mp'>
+  <image src='http://img.rrcj123.com/black/img/mi2.jpg'></image>
+  我的名片
+</navigator>
+<!-- 账户安全 -->
+<view class='hui'></view>
+<view class='bt'>账户安全</view>
+<navigator class='url ov' url='/pages/change_password/change_password'>
+  <image src='http://img.rrcj123.com/black/img/mi3.jpg'></image>
+  修改密码
+</navigator>
+<!-- 留言 -->
+<view class='hui'></view>
+<navigator class='liu' url="/pages/leave/leave">留言</navigator>
+
+
+<button form-type='submit' class='landing' bindtap='signout'>退出登录</button>
+</view>

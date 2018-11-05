@@ -1,0 +1,41 @@
+@import "/wxParse/wxParse.wxss";
+.banner{height: 324rpx;position: relative}
+.banner image{display: block;width: 100%;height: 324rpx;}
+.banner .bt{position: absolute;bottom: 0;left: 0;width: 100%;background: rgba(0, 0, 0, 0.6);height: 114rpx;padding: 7rpx 24rpx}
+.banner .bt .a1{font-size: 30rpx;color: #d3ad60;line-height: 50rpx;}
+.banner .bt .a2{font-size: 24rpx;color: #8f7746;line-height: 50rpx;}
+/* 报名截止 */
+.stop{padding: 30rpx 0;border-bottom: 1rpx solid #e1e1e1;background: url(http://img.rrcj123.com/black/img/bm_stop.jpg) no-repeat center;background-size: 2rpx 120rpx;}
+.stop .div{width: 50%;float: left;line-height: 44rpx;font-size: 24rpx;text-align: center}
+.stop .a2{font-size: 30rpx;}
+/* 地址 */
+.map{padding: 36rpx 24rpx 36rpx 60rpx;background: url(http://img.rrcj123.com/black/img/map.png) no-repeat 27rpx 40rpx;background-size: 18rpx 22rpx;font-size: 24rpx;line-height: 30rpx;color: #999999;text-align: left;}
+.map::after {border: 0;} 
+/* 灰色隔断 */
+.hui{height: 20rpx;background: #eaeaea}
+.bt{padding: 0 24rpx;border-bottom: 1rpx solid #e1e1e1;font-size: 30rpx;line-height: 88rpx;color: #323232}
+/* 活动介绍 */
+.introduce{font-size: 24rpx;line-height: 44rpx;color: #060606;padding: 8rpx 24rpx;}
+.introduce image{width: 100%;height:200px}
+.introduce .bt{
+  width:100%;
+  display:block;
+  overflow:hidden;
+  white-space:nowrap;
+  -o-text-overflow:ellipsis;
+  text-overflow:ellipsis;
+}
+/* 底部报名 */
+.foot_bm_k{height: 98rpx;}
+.foot_bm{position: fixed;bottom: 0;left: 0;width: 100%;}
+.foot_bm navigator{width: 50%;float: left;height: 98rpx;font-size: 30rpx;line-height: 98rpx;text-align: center;text-align: center}
+.foot_bm .a1{background: #d3ad60;color: #fff;}
+.foot_bm .a2{background: #fff;color: #d3ad60;border-top: 1rpx solid #eaeaea;height: 97rpx;line-height: 97rpx;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+<!-- 头部样式 -->
+<!-- <view class='fans_top'>粉丝数：<view>{{fans_top}}</view></view> -->
+<!-- <view class='fans_bt'>我的团队</view> -->
+<!-- 选项卡 -->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">我的粉丝(25)</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">我的关注(10)</view>
+</view>
+
+<view class="weui-cells__title index_ul_k" hidden="{{!isShow}}">
+   <view wx:for="{{fans_ul}}" class='ov fans_ul' wx:key>
+  <image src='{{item.img}}' class='fl'></image>
+  <view class='a1 fl'>{{item.name}}</view>
+  <view class='fr'>{{item.gz}}关注</view>
+</view>
+  </view>
+
+<view class="weui-cells__title index_ul_k" hidden="{{isShow}}">
+   <view wx:for="{{fans_ul2}}" class='ov fans_ul' wx:key>
+  <image src='{{item.img}}' class='fl'></image>
+  <view class='a1 fl'>{{item.name}}</view>
+  <view class='fr'>{{item.gz}}关注</view>
+</view>
+</view>
+<!-- 选项卡结束 -->

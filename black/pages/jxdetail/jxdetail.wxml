@@ -1,0 +1,16 @@
+<view wx:for="{{jxdetail}}" wx:key class='container'>
+  <view class='bt'>{{item.bt}}</view>
+  <view class='author'>{{item.author}}</view>
+  <image src='{{item.img}}'></image>
+  <view class='article'>{{item.article}}</view>
+</view>
+
+
+
+
+
+
+
+
+
+
