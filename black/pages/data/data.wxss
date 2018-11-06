@@ -7,7 +7,7 @@ page{background: #000000}
 
 /* 下拉 */
 .picker{height: 110rpx;width: 500rpx;float: right;text-align: right;}
-.picker view{color: #d3ad60;font-size: 30rpx;line-height: 110rpx;padding-right: 45rpx;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: 16rpx 28rpx;}
+.picker view{color: #d3ad60;font-size: 30rpx;line-height: 110rpx;padding-right: 45rpx;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: 16rpx 28rpx;}
 
 /* 性别 */
 .radio-group label{color: #d3ad60;font-size: 30rpx;line-height: 110rpx;margin-left: 34rpx}
@@ -17,7 +17,7 @@ page{background: #000000}
 /* 单选按钮美化 */
 .radio-group radio{transform:scale(.7);position: relative;top: -1rex;}
 /* 头像 */
-.avatar{float: right;margin-top: 9rpx;padding-right: 54rpx;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: auto 28rpx;}
+.avatar{float: right;margin-top: 9rpx;padding-right: 54rpx;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: auto 28rpx;}
 .avatar image{width: 82rpx;height: 82rpx;background-size: 100% 100%;border-radius: 100%;}
 
 

@@ -6,8 +6,8 @@ page {
 .landing_k{padding: 80rpx 104rpx 0;}
 .logo{display: block;width: 200rpx;height: 272rpx;margin: 0 auto 86rpx;}
 .inpute{font-size: 24rpx;color: #d3ad60;border-bottom: 1rpx solid #d3ad60;box-sizing:border-box;padding-left: 42rpx;height: 80rpx;margin-top: 44rpx;}
-.inp_1{background: url(http://img.rrcj123.com/black/img/landing1.png) no-repeat 6rpx center;background-size: 22rpx 30rpx;}
-.inp_2{background: url(http://img.rrcj123.com/black/img/landing2.png) no-repeat 6rpx center;background-size: 24rpx 32rpx;}
+.inp_1{background: url(https://img.rrcj123.com/black/img/landing1.png) no-repeat 6rpx center;background-size: 22rpx 30rpx;}
+.inp_2{background: url(https://img.rrcj123.com/black/img/landing2.png) no-repeat 6rpx center;background-size: 24rpx 32rpx;}
 
 .inpu_c{color: #d3ad60}
 /* 忘记密码 */

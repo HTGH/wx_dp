@@ -1,20 +1,20 @@
 /* 登录 */
-.loback{width: 375px;height: 555px; background: url(http://img.rrcj123.com/black/img/qr_bj.jpg) no-repeat bottom;background-size: 100% 100%;}
+.loback{width: 375px;height: 555px; background: url(https://img.rrcj123.com/black/img/qr_bj.jpg) no-repeat bottom;background-size: 100% 100%;}
 .login{margin-top: 230px;margin-left: 120px; width: 130px;float: left;font-size: 18px;background:#d8b267;color: #fff;line-height: 84rpx;margin-right: 20rpx;border-radius: 100rpx;}
 .mi_top{padding: 30rpx 24rpx;}
 .mi_top .fl image{width: 110rpx;height: 110rpx;float: left;border-radius: 50%;margin-right: 20rpx;}
 .mi_top .fl{font-size: 24rpx;color: #323232;line-height: 110rpx;}
-.mi_top .fr{font-size: 24rpx;color: #999999;line-height: 42rpx;padding: 11rpx 40rpx 0 0;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: 15rpx 29rpx;}
+.mi_top .fr{font-size: 24rpx;color: #999999;line-height: 42rpx;padding: 11rpx 40rpx 0 0;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat right center;background-size: 15rpx 29rpx;}
 .mi_top .fr image{display: block;width: 54rpx;height: 50rpx;margin: 0 auto}
 .hui{height: 20rpx;background: #eaeaea}
 /* 粉丝 */
-.fans{font-size: 30rpx;line-height: 90rpx;color: #323232;padding: 0 24rpx;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;}
+.fans{font-size: 30rpx;line-height: 90rpx;color: #323232;padding: 0 24rpx;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;}
 .fans view{display: inline;color: #d3ad60;margin-left: 20rpx;}
 
 .landing{background: #d3ad60;font-size: 36rpx;color: #fff;border-radius: 100rpx;margin-top: 58rpx;width: 565rpx;}
 .landing::after{border: 0;}
 /* 标题 */
 .bt{padding: 0 24rpx;font-size: 30rpx;color: #323232;line-height: 90rpx;}
-.liu{padding: 0 24rpx;font-size: 30rpx;color: #323232;line-height: 90rpx;border-bottom: 1rpx solid #e1e1e1;display: block;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;}
-.url{display: block;background: url(http://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;font-size: 24rpx;color: #646464;line-height: 100rpx;border-top: 1rpx solid #e1e1e1;padding: 0 24rpx;}
+.liu{padding: 0 24rpx;font-size: 30rpx;color: #323232;line-height: 90rpx;border-bottom: 1rpx solid #e1e1e1;display: block;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;}
+.url{display: block;background: url(https://img.rrcj123.com/black/img/qr_j.png) no-repeat 96.4% center;background-size: auto 30rpx;font-size: 24rpx;color: #646464;line-height: 100rpx;border-top: 1rpx solid #e1e1e1;padding: 0 24rpx;}
 .url image{width: 44rpx;height: 44rpx;margin: 28rpx 22rpx 0 0;float: left}

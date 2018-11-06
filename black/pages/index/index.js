@@ -6,9 +6,9 @@ Page({
     zan:"",
     // 轮播图
     imgUrls: [
-      'http://img.rrcj123.com/black/img/banner.jpg',
-      'http://img.rrcj123.com/black/img/gif.gif',
-      'http://img.rrcj123.com/black/img/reports.jpg'
+      'https://img.rrcj123.com/black/img/banner.jpg',
+      'https://img.rrcj123.com/black/img/gif.gif',
+      'https://img.rrcj123.com/black/img/reports.jpg'
     ],
     indicatorDots: true,//是否显示指示点
     autoplay: true,//是否自动切换

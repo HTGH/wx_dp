@@ -1,5 +1,5 @@
 Page({
   data: {
-    qr:"http://img.rrcj123.com/black/img/qr.jpg"
+    qr:"https://img.rrcj123.com/black/img/qr.jpg"
   }
 })

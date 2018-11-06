@@ -1,5 +1,5 @@
 <view class="landing_k">
-  <image src='http://img.rrcj123.com/black/img/landing_logo.png' class='logo'></image>
+  <image src='https://img.rrcj123.com/black/img/landing_logo.png' class='logo'></image>
 
 <view class='inp_1'>
   <input type='number' placeholder-class="inpu_c" placeholder='请输入手机号码' class='inpute'></input>

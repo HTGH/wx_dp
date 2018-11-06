@@ -45,7 +45,7 @@
   <!-- 富文本编辑区域 -->
   <view class='introduce tong'>
     <view class='bt'>大咖团一起体验高空滑翔伞，招募中大咖团一起体验高空滑翔伞，招募中</view>
-    <image src="http://img.rrcj123.com/black/img/banner2.jpg"></image>
+    <image src="https://img.rrcj123.com/black/img/banner2.jpg"></image>
   </view>
 <!-- 灰色隔断 -->
 <view class='hui'></view>

@@ -7,12 +7,12 @@ Page({
     currentTab: 0,
     // 轮播图
     imgUrls: [
-      'http://img.rrcj123.com/black/img/jx/b1.jpg',
-      'http://img.rrcj123.com/black/img/jx/s81.jpg',
-      'http://img.rrcj123.com/black/img/jx/b2.jpg',
-      'http://img.rrcj123.com/black/img/jx/b3.jpg',
-      'http://img.rrcj123.com/black/img/jx/b4.jpg',
-      'http://img.rrcj123.com/black/img/jx/b5.jpg'
+      'https://img.rrcj123.com/black/img/jx/b1.jpg',
+      'https://img.rrcj123.com/black/img/jx/s81.jpg',
+      'https://img.rrcj123.com/black/img/jx/b2.jpg',
+      'https://img.rrcj123.com/black/img/jx/b3.jpg',
+      'https://img.rrcj123.com/black/img/jx/b4.jpg',
+      'https://img.rrcj123.com/black/img/jx/b5.jpg'
     ],
     indicatorDots: true,//是否显示指示点
     autoplay: true,//是否自动切换

@@ -49,7 +49,7 @@
 <view class="weui-cells__title index_ul_k" hidden="{{isShow}}">
    <view>
     <view class='index_ul'>
-      <navigator url='/pages/jxdetail/game/game'><image src='http://img.rrcj123.com/black/img/jx/timg.jpg' class='gameimg'></image></navigator>
+      <navigator url='/pages/jxdetail/game/game'><image src='https://img.rrcj123.com/black/img/jx/timg.jpg' class='gameimg'></image></navigator>
       <navigator url='/pages/jxdetail/game/game' class='tong game'>
       七年等待,梦碎s8
       -----------遗憾注定是铭记青春的方式

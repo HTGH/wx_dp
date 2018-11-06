@@ -7,11 +7,11 @@
 .details{font-size: 24rpx;line-height: 44rpx;color: #060606;padding: 8rpx 0 50rpx;}
 .details image{width: 100%}
 /* 点赞 */
-.like{font-size: 30rpx;color: #d3ad60;line-height: 70rpx;border: 1px solid #c5c5c5;width: 300rpx;border-radius: 80rpx;margin: 40rpx auto 40rpx;padding-left: 152rpx;background: url(http://img.rrcj123.com/black/img/like1.jpg) no-repeat 100rpx 10rpx;background-size: 40rpx 42rpx;}
+.like{font-size: 30rpx;color: #d3ad60;line-height: 70rpx;border: 1px solid #c5c5c5;width: 300rpx;border-radius: 80rpx;margin: 40rpx auto 40rpx;padding-left: 152rpx;background: url(https://img.rrcj123.com/black/img/like1.jpg) no-repeat 100rpx 10rpx;background-size: 40rpx 42rpx;}
 /* 分享那排 */
 .fx_k .fl{height: 54rpx;border: 1rpx solid #f3f3f3;border-radius: 100rpx;font-size: 24rpx;line-height: 54rpx;color: #7c7c7c;padding: 0 24rpx 0 54rpx;margin-right: 20rpx;overflow: hidden}
-.fx_k .a1{background:url(http://img.rrcj123.com/black/img/index_ul2.png) no-repeat 22rpx 17rpx;background-size: 29rpx 18rpx;}
-.share{background: url(http://img.rrcj123.com/black/img/index_ul3.png) no-repeat 24rpx 17rpx;background-size: 20rpx 20rpx;}
+.fx_k .a1{background:url(https://img.rrcj123.com/black/img/index_ul2.png) no-repeat 22rpx 17rpx;background-size: 29rpx 18rpx;}
+.share{background: url(https://img.rrcj123.com/black/img/index_ul3.png) no-repeat 24rpx 17rpx;background-size: 20rpx 20rpx;}
 /* 灰色间隔 */
 .hui{height: 60rpx;background: #f5f5f5}
 /* 用户评论 */
@@ -24,7 +24,7 @@
 /* 返回顶部 */
 page{width: 100%;height: 100%;}
 scroll-view{height: 100%;width: 100%;}
-.ding{width: 40px;height: 40px;position: fixed;right: 10rpx;bottom: 140rpx;z-index: 1;color: red;text-align: center;line-height: 50px;background: #ccc url(http://img.rrcj123.com/black/img/ding.png) no-repeat center;background-size: 50% 50%;}
+.ding{width: 40px;height: 40px;position: fixed;right: 10rpx;bottom: 140rpx;z-index: 1;color: red;text-align: center;line-height: 50px;background: #ccc url(https://img.rrcj123.com/black/img/ding.png) no-repeat center;background-size: 50% 50%;}
 /* 没有更多评论 */
 .no_comment{text-align: center;font-size: 28rpx;color: #7c7c7c;line-height: 80rpx;background: #f5f5f5}
 /* 发表评论 */

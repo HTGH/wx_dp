@@ -1,6 +1,6 @@
-page{background: url(http://img.rrcj123.com/black/img/qr_bj.jpg) no-repeat bottom;background-size: 100% 100%;}
+page{background: url(https://img.rrcj123.com/black/img/qr_bj.jpg) no-repeat bottom;background-size: 100% 100%;}
 .logo{width: 160rpx;height: 220rpx;display: block;margin: 98rpx auto 90rpx;}
-.qr{display: block;width: 264rpx;height: 264rpx;margin: 0 auto;padding: 10.5rpx;background: url(http://img.rrcj123.com/black/img/qr_k.png) no-repeat;background-size: 100% 100%;}
+.qr{display: block;width: 264rpx;height: 264rpx;margin: 0 auto;padding: 10.5rpx;background: url(https://img.rrcj123.com/black/img/qr_k.png) no-repeat;background-size: 100% 100%;}
 .qr_jie{font-size: 30rpx;color: #ffffff;line-height: 134rpx;text-align: center}
 
 

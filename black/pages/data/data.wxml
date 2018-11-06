@@ -38,7 +38,7 @@
   <!-- 出生日期 -->
   <view class='ov'>
     <text class='fl wz'>出生日期</text>
-  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange" class='picker'>
+  <picker mode="date" value="{{date}}" start="1990-09-01" end="2018-11-01" bindchange="bindDateChange" class='picker'>
     <view class="picker">
       {{date}}
     </view>

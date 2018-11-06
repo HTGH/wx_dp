@@ -1,7 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
-    this.url ='http://101.200.33.195:5000/'
+    this.url ='https://db.rrcj123.com/'
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())

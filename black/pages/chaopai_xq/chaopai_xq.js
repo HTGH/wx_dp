@@ -3,7 +3,7 @@ Page({
   data:{
     array: ['南昌', '赣州', '武汉', '贵阳', '常德', '六安', '长沙'],
     index: 0,
-    banner:"http://img.rrcj123.com/black/img/banner2.jpg",
+    banner:"https://img.rrcj123.com/black/img/banner2.jpg",
     a1:"大咖团一起体验高空滑翔伞，招募中大咖团一起体验高空滑翔伞，招募中",
     a2:"时间：2018-03-09",
     stop_r:"100",
@@ -11,7 +11,7 @@ Page({
     map:"南昌市青山湖区北京东路458号锦海东方银座",
   },
   onLoad: function () {
-    var article = '<div>我是HTML代码</div><img src="http://img.rrcj123.com/black/img/banner2.jpg">';
+    var article = '<div>我是HTML代码</div><img src="https://img.rrcj123.com/black/img/banner2.jpg">';
     var that = this;
     WxParse.wxParse('article', 'html', article, that);
   },

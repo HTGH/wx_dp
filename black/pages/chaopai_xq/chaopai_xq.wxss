@@ -5,11 +5,11 @@
 .banner .bt .a1{font-size: 30rpx;color: #d3ad60;line-height: 50rpx;}
 .banner .bt .a2{font-size: 24rpx;color: #8f7746;line-height: 50rpx;}
 /* 报名截止 */
-.stop{padding: 30rpx 0;border-bottom: 1rpx solid #e1e1e1;background: url(http://img.rrcj123.com/black/img/bm_stop.jpg) no-repeat center;background-size: 2rpx 120rpx;}
+.stop{padding: 30rpx 0;border-bottom: 1rpx solid #e1e1e1;background: url(https://img.rrcj123.com/black/img/bm_stop.jpg) no-repeat center;background-size: 2rpx 120rpx;}
 .stop .div{width: 50%;float: left;line-height: 44rpx;font-size: 24rpx;text-align: center}
 .stop .a2{font-size: 30rpx;}
 /* 地址 */
-.map{padding: 36rpx 24rpx 36rpx 60rpx;background: url(http://img.rrcj123.com/black/img/map.png) no-repeat 27rpx 40rpx;background-size: 18rpx 22rpx;font-size: 24rpx;line-height: 30rpx;color: #999999;text-align: left;}
+.map{padding: 36rpx 24rpx 36rpx 60rpx;background: url(https://img.rrcj123.com/black/img/map.png) no-repeat 27rpx 40rpx;background-size: 18rpx 22rpx;font-size: 24rpx;line-height: 30rpx;color: #999999;text-align: left;}
 .map::after {border: 0;} 
 /* 灰色隔断 */
 .hui{height: 20rpx;background: #eaeaea}

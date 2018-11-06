@@ -8,7 +8,7 @@
       <image src='{{avatar}}' class='avatar'></image>
       {{names}}
     </navigator>
-    <navigator url='/pages/qr/qr' class='fr'><image src='http://img.rrcj123.com/black/img/qr.png'></image> 我的推广码</navigator>
+    <navigator url='/pages/qr/qr' class='fr'><image src='https://img.rrcj123.com/black/img/qr.png'></image> 我的推广码</navigator>
   </view>
 </view>
 <view class='hui'></view>
@@ -19,18 +19,18 @@
 <!-- 基本资料 -->
 <view class='bt'>基本资料</view>
 <navigator class='url ov' url='/pages/data/data'>
-  <image src='http://img.rrcj123.com/black/img/mi1.jpg'></image>
+  <image src='https://img.rrcj123.com/black/img/mi1.jpg'></image>
   完善资料
 </navigator>
 <navigator class='url ov' url='/pages/mp/mp'>
-  <image src='http://img.rrcj123.com/black/img/mi2.jpg'></image>
+  <image src='https://img.rrcj123.com/black/img/mi2.jpg'></image>
   我的名片
 </navigator>
 <!-- 账户安全 -->
 <view class='hui'></view>
 <view class='bt'>账户安全</view>
 <navigator class='url ov' url='/pages/change_password/change_password'>
-  <image src='http://img.rrcj123.com/black/img/mi3.jpg'></image>
+  <image src='https://img.rrcj123.com/black/img/mi3.jpg'></image>
   修改密码
 </navigator>
 <!-- 留言 -->
